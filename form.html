@@ -1,0 +1,51 @@
+<center><h1>Student Survey</h1></center>
+    <h2>
+      Please answer each question with the best of your knowlege then click SUBMIT, thank you. 
+    </h2>
+    <form method = "post" action = "surveyform.php">
+	
+       <br />
+        First Name:<input type="text" name="first" size="20" required /><br />
+	 <br />
+        Last Name:<input type="text" name="last" size="20" required />
+        <br /><br />
+        
+        <h4>How old are you?</h4>
+	    <select name="age">
+              <option value=""/></option>
+	      <option value="10 to 16 years old"/> 10-16 </option>
+	      <option value="17 to 23 years old"/> 17 - 23</option>
+	      <option value="24 to 34 years old"/> 24 - 34 </option>
+	      <option value="35 to 55 years old"/> 35 - 55</option>
+	      <option value="56 years old or older "/> 56+</option> 
+	    </select> <br/> <br/>
+            
+        <h4> Gender </h4>
+          <input type="radio" name="gender" value="male"/> Male <br/>
+          <input type="radio" name="gender" value="female"/> Female <br/> 
+          
+        <h4>What are you majoring in?</h4>
+          <input type="radio" name="major" value="Computer Science (C SCI)"/> Computer Science (C SCI)<br/>
+            <input type="radio" name="major" value="Business"/>Business<br/>
+            <input type="radio" name="major" value="Engineering"/>Engineering<br/>
+        
+        <h4>What is your race?</h4>
+          <input type="checkbox" name="race" value="White" /> White <br/>
+          <input type="checkbox" name="race" value="Asian"/> Asian <br/>  
+          <input type="checkbox" name="race" value="Black or African American"/> Black or African American <br />
+          <input type="checkbox" name="race" value="Hispanic or Latino"/> Hispanic or Latino <br />
+          <input type="checkbox" name="race" value="American Indian or Alaska Native"/> American Indian or Alaska Native <br>  
+          <input type="checkbox" name="race" value="Native Hawaiian or Other Pacific Islander"/> Native Hawaiian or Other Pacific Islander <br />
+	
+        
+        <h4>What do you think of the class so far?</h4> 
+         
+          <textarea rows="6" cols="50">
+          
+          </textarea>
+          
+        <br/>
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Clear" />
+        
+    </form> 
